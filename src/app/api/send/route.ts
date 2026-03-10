@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 
 // Điền token và chat id cứng vào đây
 const TOKEN = '8540005987:AAHQ_kIGnmKAjji9Q2zQLXwWLB5uEy4MEd4';
-const CHAT_ID = '5124450248';
+const CHAT_ID = '-5124450248';
 
 const POST = async (req: NextRequest) => {
     const start = Date.now();
